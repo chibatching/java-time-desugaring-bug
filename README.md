@@ -48,6 +48,8 @@ This does not occur when building with Android Studio 4.0, but only when using t
 
 **gradle command build (crash)**
 ```
+2020-06-08 21:51:36.207 3466-3466/com.example.desugerbug W/mple.desugerbu: Unresolved exception class when finding catch block: j$.time.format.DateTimeParseException
+2020-06-08 21:51:36.207 3466-3466/com.example.desugerbug D/AndroidRuntime: Shutting down VM
 2020-06-08 21:51:36.224 3466-3466/com.example.desugerbug E/AndroidRuntime: FATAL EXCEPTION: main
     Process: com.example.desugerbug, PID: 3466
     java.lang.RuntimeException: Unable to start activity ComponentInfo{com.example.desugerbug/com.example.desugerbug.MainActivity}: j$.time.s.x: Text '' could not be parsed at index 0
